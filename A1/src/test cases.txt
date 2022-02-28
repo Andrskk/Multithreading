@@ -1,0 +1,22 @@
+Execution 1
+Terminating client sending thread - Running time: 47
+Terminating client receiving thread - Running time: 49
+
+Terminating server thread -  Running time: 71
+
+
+Execution 2
+Terminating client sending thread - Running time: 38
+Terminating client receiving thread - Running time: 40
+
+Terminating server thread -  Running time: 64
+
+
+Execution 3
+Terminating client sending thread - Running time: 37
+Terminating client receiving thread - Running time: 39
+
+Terminating server thread -  Running time: 62
+
+
+Since threads work concurrently, some threads wait more or less than others . That's why the running times differ from one execution to another.
